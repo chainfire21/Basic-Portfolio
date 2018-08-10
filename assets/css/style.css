@@ -1,24 +1,25 @@
 .navBar {
     overflow: hidden;
-    padding: 0% 1% 0% 1%;
+    padding: 0% 1%;
     max-width: 960px;
     margin: 0 auto;
 }
 
 .content {
-    padding: 0% 1% 0% 1%;
+    padding: 0% 1%;
     max-width: 960px;
     margin: 20px auto;
-    border-radius: 2%;
+    border-radius: 10px;
     padding-bottom: 20px;
     overflow: auto;
-    background-color: #85aeef;
+    background-color: rgb(237, 239, 248);
+    box-shadow: 2px 2px 10px 2px #7d7d7d;
 }
 
 .aboutMe{
     border-width: 0px 0px 3px 0px;
     border-style: solid;
-    border-color: #333;
+    border-color: #000203;
 }
 
 .imgAndDesc img{
@@ -30,8 +31,9 @@
     height: 50px;
     /* margin-top:-50px; */
     text-align: center;
-    padding: 1px 0px 0px 0px;
-    background-color: #333;
+    padding-top: 1px;
+    background-color: #000203;
+    color:#ffffff;
 }
 
 .fullWidth {
@@ -52,7 +54,7 @@ html{
 }
 
 .submitBtn{
-    background-color: #333;
+    background-color: #000203;
     border: none;
     color: white;
     padding: 10px 16px;
@@ -63,7 +65,7 @@ html{
 }
 
 form div{
-    padding: 10px 0px 0px 0px;
+    padding-top: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -74,39 +76,42 @@ form div{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    line-height: 39px;
+    line-height: 79px;
+    font-family: arial;
 }
 
 .myName{
-    background-color: rgb(57, 99, 167);
+    background-color: #2D6178;
+    font-family: 'poiret one', arial;
+    font-size: 25px;
 }
-
 /* Change the color of links on hover */
 .navBar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #84A59C;
+    color: #000203;
 }
 
 /* Add a color to the active/current link */
 .navBar a.active {
-    background-color: rgb(57, 99, 167);
+    background-color: #2D6178;
     color: white;
 }
 
 .navBar div {
     float:left;
-    padding: 0% 1% 0% 1%;
+    padding: 0% 1%;
     color: #f2f2f2;
 }
 
 body{
-    margin: 0;
-    background-color: #b6bec3;
+    background-color: #CBE0E5;
     height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.header{
-    background-color: #333;
+header{
+    background-color: #000203;
+    box-shadow: 2px 2px 10px 2px #7d7d7d;
 }
 
 .projects{
@@ -119,16 +124,24 @@ body{
     position: relative;
     float: left;
     text-align: center;
-    margin: 10px 65px;
+    align-content: space-around;
+    margin: 10px 65px 0px 90px;
 }
 
 .centerBottomText {
     position: absolute;
-    top: 30%;
+    top: 31%;
     left: 50%;
-    transform: translate(-50%, +150%);
-    background-color: rgb(57, 99, 167);
-    min-width: 100%;
+    transform: translate(-50%, +222%);
+    background: rgb(237, 239, 248);
+    background: linear-gradient(0deg, rgba(237, 239, 248, 1) 0%, rgba(237, 239, 248, 1) 21%, rgba(237, 239, 248, 0.785049053801208) 59%, rgba(237, 239, 248, 0.26404065043986347) 81%, rgba(237, 239, 248, 0) 100%);
+    min-width: 105%;
     font-size: 20px;
     padding: 10px 0px;
+}
+
+h2 {
+    font-family: 'poiret one', arial;
+    font-size: 28px;
+    padding-left: 15px;
 }
