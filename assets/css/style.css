@@ -168,10 +168,6 @@ h2 {
         max-width: 100%;
         margin: 5px 5px;
     }
-    
-    body{
-        background-color: fuchsia;
-    }
 
     .content {
         max-width: 100%;
@@ -190,10 +186,16 @@ h2 {
         margin: 5px 5px;
     }
 
-    body{
-        background-color: black;
+    .navBar div{
+        float: none;
+        text-align: center;
     }
-    
+
+    .myName{
+
+        margin-bottom: 10px;
+    }
+
     .navBar a {
         width: 100%;
     }
